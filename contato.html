@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Clinica - contato </title>
+</head>
+<body>
+    <style>
+        html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: auto;
+    background-color: #46bc99;
+    text-align: left;
+    font-family:sans-serif, Helvetica,Arial;
+    font-size: 13px;
+    color: #f1f1f1;
+    
+
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    color: white;
+    width: 15%;
+    background-color: #46bc99
+    padding: 10px 20px 0px;
+    box-shadow: inset 0 0 1px 1px lightgray;
+    
+}
+.header {
+    background-color:white;
+    min-height: 150px;
+    text-align: center;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    color: black;
+}
+.footer {
+    background-color: #0e1c18;
+    min-height: 150px;
+    text-align: center;
+    font-size: 8px;
+    color: white;
+}
+fieldset{
+     margin: 20px;
+    border-radius: 10px;
+    border-color:darkgrey;
+    background-color: lightgray;
+    font-family:Arial;
+    font-size: 12px;
+ }
+legend{
+    text-align: center;
+    color: #0e1c18;
+    font-family:Arial;
+    font-size: 16px;
+}
+iframe{
+    text-align: center;
+    justify-content: center;
+    float: initial;
+}
+
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 15;
+width: 165px;
+height: 35px;
+background-color:rgb(210, 98, 83);
+padding: 9px 50px;
+border-radius:8px;
+color: rgb(0, 0, 0);
+
+}
+
+
+
+
+
+    </style>
+    <div class="wrapper">
+        <div class="menu" color="white" >
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <br>
+                <br>
+                <br>
+                <li><a style="color: white;" href="index.html"><strong style="color: white;">Home</strong></a></li>
+                <br>
+                <br>
+                <br>
+                <li><a style="color: white;" href="sobre.html"><strong style="color: white;" >Quem Somos</strong></a></li>
+                <br>
+                <br>
+                <br>
+                <li><a style="color: white;" href="horario.html"><strong style="color: white;">Horários de Atendimento</strong></a></li>
+                <br>
+                <br>
+                <br>
+                <li><a style="color: white;" href="contato.html"><strong style="color: white;">Fale Conosco</strong></a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+            <img src="img/Captura de tela 2024-03-12 105011.png" width="500"/>
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <p style="text-align: center;"> <b>Nosso endereço:</b>
+                    R. Waldemar Meira, º 503 - sala1 térreo - Portal dos Ipês, Cajamar - SP, 07790-765 </p>
+                    <p style="text-align: center;"> <b>Nossos Telefones:</b>
+                        (11) 4555-2525, whatsapp (11) 98047-7722 </p>
+                        <p style="text-align: center;"> <b>Email:</b>
+                           sacconsumidor@clinicabemmequer.com.br </p>
+                    
+                <hr />
+                <p style="text-align: center;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3661.504535154517!2d-46.86101907391906!3d-23.40613485590929!2m3
+                !1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf1d98b1f5d3bb%3A0x400bca1037397906!2sEspa%C3%A7o%20Amae%20-%20Unidade%20Cajamar
+                !5e0!3m2!1spt-BR!2sbr!4v1710357365794!5m2!1spt-BR!2sbr" width="400" height="380" style="border:0;" 
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </p>
+                <hr />
+                <br>
+                <br>
+                <br>
+             
+                    <fieldset>
+                        <form>
+                    <legend>Solicite seu Orçamento</legend>
+                    <br>
+                    <label>Nome Completo*:</label>
+                    <input type="text"/ size="88">
+                    <br>
+                    <br>
+                    <label>Celular*:</label><input type="text"/>
+                    <label>Email*:</label><input  type="text" size="65"/>
+                    <br>
+                    <br>
+                        <select name="Assunto">
+                        <option value="">Selecione o Assunto</option>
+                        <option value="Exame">Exame</option>
+                        <option value="Consulta">Consulta</option>
+                        <option value="Resultado de exame">Resultado de Exame</option>
+                        <option value="Outro">Outro...</option>
+
+                        </select>
+                    <br>
+                    <br>
+                    <label>Descrição:</label>   <textarea rows="8" cols="90" name="Descrição">
+                    </textarea>  
+                    <br>
+                    <br>
+                    <br>
+                   
+                        <button id="btn">Limpar</button>
+                        <button id="btn2" style="background-color: rgb(146, 222, 70);" >Enviar </button>
+                        
+                </form>
+                    </fieldset>
+            
+            </div>
+                      
+    
+            <div class="footer">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h4>Clínica Bem me Quer | CNPJ: 24.721.647/0001-70. </h4>
+                <p>Consultas médicas acessíveis em diversas especialidades, além de exames laboratoriais e por imagem.</p>
+                <h5>ENDEREÇO: R. Waldemar Meira, º 503 - sala1 térreo - Portal dos Ipês, Cajamar - SP, 07790-765 </h5>
+                <h4> ©2024 TODOS OS DIREITOS RESERVADOS</h4>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
